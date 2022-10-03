@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const prefix = '&';
-
 const mudaeId = '432610292342587392';
 
 client.once('ready', () => {
@@ -13,9 +11,10 @@ client.once('ready', () => {
 client.on('message', message => {
     if (message.author.id == mudaeId) {
         message.react('❤️')
-        console.log('Mensagem Reagida')
     }
 })
+
+client.user.setActivity('reações na Mudae!', {type: 'PLAYING'});
 
 
 
