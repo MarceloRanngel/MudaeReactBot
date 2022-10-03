@@ -7,7 +7,7 @@ const mudaeId = '432610292342587392';
 client.once('ready', () => {
     console.log('Amadeus is online!')
     client.user.setActivity("reações na Mudae", {
-    type: ActivityType.Watching,
+    type: Discord.ActivityType.Watching,
   });
 })
 
