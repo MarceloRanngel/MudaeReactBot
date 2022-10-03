@@ -14,7 +14,7 @@ client.on('message', message => {
     }
 })
 
-client.user.setActivity('reações na Mudae!', {type: 'PLAYING'});
+
 
 
 
