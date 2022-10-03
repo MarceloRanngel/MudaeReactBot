@@ -9,6 +9,6 @@
   "author": "ClockMkrz",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^14.5.0"
   }
 }
